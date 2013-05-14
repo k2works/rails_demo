@@ -1,0 +1,133 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ActiveSupport	test/test_helper.rb	/^class ActiveSupport::TestCase$/;"	c
+AddOrderIdToLineItem	db/migrate/20130411085812_add_order_id_to_line_item.rb	/^class AddOrderIdToLineItem < ActiveRecord::Migration$/;"	c
+AddQauntityToLineItems	db/migrate/20130411040308_add_qauntity_to_line_items.rb	/^class AddQauntityToLineItems < ActiveRecord::Migration$/;"	c
+AdminController	app/controllers/admin_controller.rb	/^class AdminController < ApplicationController$/;"	c
+AdminControllerTest	test/functional/admin_controller_test.rb	/^class AdminControllerTest < ActionController::TestCase$/;"	c
+AdminHelper	app/helpers/admin_helper.rb	/^module AdminHelper$/;"	m
+AdminHelperTest	test/unit/helpers/admin_helper_test.rb	/^class AdminHelperTest < ActionView::TestCase$/;"	c
+Application	config/application.rb	/^  class Application < Rails::Application$/;"	c	class:Railsdemo
+ApplicationController	app/controllers/application_controller.rb	/^class ApplicationController < ActionController::Base$/;"	c
+ApplicationHelper	app/helpers/application_helper.rb	/^module ApplicationHelper$/;"	m
+BrowsingTest	test/performance/browsing_test.rb	/^class BrowsingTest < ActionDispatch::PerformanceTest$/;"	c
+Cart	app/models/cart.rb	/^class Cart < ActiveRecord::Base$/;"	c
+CartTest	test/unit/cart_test.rb	/^class CartTest < ActiveSupport::TestCase$/;"	c
+CartsController	app/controllers/carts_controller.rb	/^class CartsController < ApplicationController$/;"	c
+CartsControllerTest	test/functional/carts_controller_test.rb	/^class CartsControllerTest < ActionController::TestCase$/;"	c
+CartsHelper	app/helpers/carts_helper.rb	/^module CartsHelper$/;"	m
+CartsHelperTest	test/unit/helpers/carts_helper_test.rb	/^class CartsHelperTest < ActionView::TestCase$/;"	c
+CombineItemsInCart	db/migrate/20130411041720_combine_items_in_cart.rb	/^class CombineItemsInCart < ActiveRecord::Migration$/;"	c
+CreateCarts	db/migrate/20130409080550_create_carts.rb	/^class CreateCarts < ActiveRecord::Migration$/;"	c
+CreateLineItems	db/migrate/20130409081051_create_line_items.rb	/^class CreateLineItems < ActiveRecord::Migration$/;"	c
+CreateOrders	db/migrate/20130412020928_create_orders.rb	/^class CreateOrders < ActiveRecord::Migration$/;"	c
+CreateProducts	db/migrate/20130409011220_create_products.rb	/^class CreateProducts < ActiveRecord::Migration$/;"	c
+CreateUsers	db/migrate/20130415002938_create_users.rb	/^class CreateUsers < ActiveRecord::Migration$/;"	c
+LineItem	app/models/line_item.rb	/^class LineItem < ActiveRecord::Base$/;"	c
+LineItemTest	test/unit/line_item_test.rb	/^class LineItemTest < ActiveSupport::TestCase$/;"	c
+LineItemsController	app/controllers/line_items_controller.rb	/^class LineItemsController < ApplicationController$/;"	c
+LineItemsControllerTest	test/functional/line_items_controller_test.rb	/^class LineItemsControllerTest < ActionController::TestCase$/;"	c
+LineItemsHelper	app/helpers/line_items_helper.rb	/^module LineItemsHelper$/;"	m
+LineItemsHelperTest	test/unit/helpers/line_items_helper_test.rb	/^class LineItemsHelperTest < ActionView::TestCase$/;"	c
+Order	app/models/order.rb	/^class Order < ActiveRecord::Base$/;"	c
+OrderNotifier	app/mailers/order_notifier.rb	/^class OrderNotifier < ActionMailer::Base$/;"	c
+OrderNotifierTest	test/functional/order_notifier_test.rb	/^class OrderNotifierTest < ActionMailer::TestCase$/;"	c
+OrderTest	test/unit/order_test.rb	/^class OrderTest < ActiveSupport::TestCase$/;"	c
+OrdersController	app/controllers/orders_controller.rb	/^class OrdersController < ApplicationController$/;"	c
+OrdersControllerTest	test/functional/orders_controller_test.rb	/^class OrdersControllerTest < ActionController::TestCase$/;"	c
+OrdersHelper	app/helpers/orders_helper.rb	/^module OrdersHelper$/;"	m
+OrdersHelperTest	test/unit/helpers/orders_helper_test.rb	/^class OrdersHelperTest < ActionView::TestCase$/;"	c
+Product	app/models/product.rb	/^class Product < ActiveRecord::Base$/;"	c
+ProductTest	test/unit/product_test.rb	/^class ProductTest < ActiveSupport::TestCase$/;"	c
+ProductsController	app/controllers/products_controller.rb	/^class ProductsController < ApplicationController$/;"	c
+ProductsControllerTest	test/functional/products_controller_test.rb	/^class ProductsControllerTest < ActionController::TestCase$/;"	c
+ProductsHelper	app/helpers/products_helper.rb	/^module ProductsHelper$/;"	m
+ProductsHelperTest	test/unit/helpers/products_helper_test.rb	/^class ProductsHelperTest < ActionView::TestCase$/;"	c
+Railsdemo	config/application.rb	/^module Railsdemo$/;"	m
+SessionsController	app/controllers/sessions_controller.rb	/^class SessionsController < ApplicationController$/;"	c
+SessionsControllerTest	test/functional/sessions_controller_test.rb	/^class SessionsControllerTest < ActionController::TestCase$/;"	c
+SessionsHelper	app/helpers/sessions_helper.rb	/^module SessionsHelper$/;"	m
+SessionsHelperTest	test/unit/helpers/sessions_helper_test.rb	/^class SessionsHelperTest < ActionView::TestCase$/;"	c
+StoreController	app/controllers/store_controller.rb	/^class StoreController < ApplicationController$/;"	c
+StoreControllerTest	test/functional/store_controller_test.rb	/^class StoreControllerTest < ActionController::TestCase$/;"	c
+StoreHelper	app/helpers/store_helper.rb	/^module StoreHelper$/;"	m
+StoreHelperTest	test/unit/helpers/store_helper_test.rb	/^class StoreHelperTest < ActionView::TestCase$/;"	c
+User	app/models/user.rb	/^class User < ActiveRecord::Base$/;"	c
+UserStoriesTest	test/integration/user_stories_test.rb	/^class UserStoriesTest < ActionDispatch::IntegrationTest$/;"	c
+UserTest	test/unit/user_test.rb	/^class UserTest < ActiveSupport::TestCase$/;"	c
+UsersController	app/controllers/users_controller.rb	/^class UsersController < ApplicationController$/;"	c
+UsersControllerTest	test/functional/users_controller_test.rb	/^class UsersControllerTest < ActionController::TestCase$/;"	c
+UsersHelper	app/helpers/users_helper.rb	/^module UsersHelper$/;"	m
+UsersHelperTest	test/unit/helpers/users_helper_test.rb	/^class UsersHelperTest < ActionView::TestCase$/;"	c
+add_line_items_from_cart	app/models/order.rb	/^  def add_line_items_from_cart(cart)$/;"	f	class:Order
+add_product	app/models/cart.rb	/^  def add_product(product_id)$/;"	f	class:Cart
+authorize	app/controllers/application_controller.rb	/^  def authorize$/;"	f	class:ApplicationController
+change	db/migrate/20130409011220_create_products.rb	/^  def change$/;"	f	class:CreateProducts
+change	db/migrate/20130409080550_create_carts.rb	/^  def change$/;"	f	class:CreateCarts
+change	db/migrate/20130409081051_create_line_items.rb	/^  def change$/;"	f	class:CreateLineItems
+change	db/migrate/20130411040308_add_qauntity_to_line_items.rb	/^  def change$/;"	f	class:AddQauntityToLineItems
+change	db/migrate/20130411085812_add_order_id_to_line_item.rb	/^  def change$/;"	f	class:AddOrderIdToLineItem
+change	db/migrate/20130412020928_create_orders.rb	/^  def change$/;"	f	class:CreateOrders
+change	db/migrate/20130415002938_create_users.rb	/^  def change$/;"	f	class:CreateUsers
+create	app/controllers/carts_controller.rb	/^  def create$/;"	f	class:CartsController
+create	app/controllers/line_items_controller.rb	/^  def create$/;"	f	class:LineItemsController
+create	app/controllers/orders_controller.rb	/^  def create$/;"	f	class:OrdersController
+create	app/controllers/products_controller.rb	/^  def create$/;"	f	class:ProductsController
+create	app/controllers/sessions_controller.rb	/^  def create$/;"	f	class:SessionsController
+create	app/controllers/users_controller.rb	/^  def create$/;"	f	class:UsersController
+current_cart	app/controllers/application_controller.rb	/^  def current_cart$/;"	f	class:ApplicationController
+default_url_potions	app/controllers/application_controller.rb	/^  def default_url_potions$/;"	f	class:ApplicationController
+destroy	app/controllers/carts_controller.rb	/^  def destroy$/;"	f	class:CartsController
+destroy	app/controllers/line_items_controller.rb	/^  def destroy$/;"	f	class:LineItemsController
+destroy	app/controllers/orders_controller.rb	/^  def destroy$/;"	f	class:OrdersController
+destroy	app/controllers/products_controller.rb	/^  def destroy$/;"	f	class:ProductsController
+destroy	app/controllers/sessions_controller.rb	/^  def destroy$/;"	f	class:SessionsController
+destroy	app/controllers/users_controller.rb	/^  def destroy$/;"	f	class:UsersController
+down	db/migrate/20130411041720_combine_items_in_cart.rb	/^  def down$/;"	f	class:CombineItemsInCart
+edit	app/controllers/carts_controller.rb	/^  def edit$/;"	f	class:CartsController
+edit	app/controllers/line_items_controller.rb	/^  def edit$/;"	f	class:LineItemsController
+edit	app/controllers/orders_controller.rb	/^  def edit$/;"	f	class:OrdersController
+edit	app/controllers/products_controller.rb	/^  def edit$/;"	f	class:ProductsController
+edit	app/controllers/users_controller.rb	/^  def edit$/;"	f	class:UsersController
+ensure_an_admin_remains	app/models/user.rb	/^  def ensure_an_admin_remains$/;"	f	class:User
+ensure_not_referenced_by_any_line_item	app/models/product.rb	/^  def ensure_not_referenced_by_any_line_item$/;"	f	class:Product
+hidden_div_if	app/helpers/application_helper.rb	/^  def hidden_div_if(condition, attributes = {}, &block)$/;"	f	class:ApplicationHelper
+index	app/controllers/admin_controller.rb	/^  def index$/;"	f	class:AdminController
+index	app/controllers/carts_controller.rb	/^  def index$/;"	f	class:CartsController
+index	app/controllers/line_items_controller.rb	/^  def index$/;"	f	class:LineItemsController
+index	app/controllers/orders_controller.rb	/^  def index$/;"	f	class:OrdersController
+index	app/controllers/products_controller.rb	/^  def index$/;"	f	class:ProductsController
+index	app/controllers/store_controller.rb	/^  def index$/;"	f	class:StoreController
+index	app/controllers/users_controller.rb	/^  def index$/;"	f	class:UsersController
+login_as	test/test_helper.rb	/^  def login_as(user)$/;"	f	class:ActiveSupport
+logout	test/test_helper.rb	/^  def logout$/;"	f	class:ActiveSupport
+new	app/controllers/carts_controller.rb	/^  def new$/;"	f	class:CartsController
+new	app/controllers/line_items_controller.rb	/^  def new$/;"	f	class:LineItemsController
+new	app/controllers/orders_controller.rb	/^  def new$/;"	f	class:OrdersController
+new	app/controllers/products_controller.rb	/^  def new$/;"	f	class:ProductsController
+new	app/controllers/sessions_controller.rb	/^  def new$/;"	f	class:SessionsController
+new	app/controllers/users_controller.rb	/^  def new$/;"	f	class:UsersController
+new_product	test/unit/product_test.rb	/^  def new_product(image_url)$/;"	f
+recived	app/mailers/order_notifier.rb	/^  def recived(order)$/;"	f	class:OrderNotifier
+set_i18n_locale_from_params	app/controllers/application_controller.rb	/^  def set_i18n_locale_from_params$/;"	f	class:ApplicationController
+setup	test/test_helper.rb	/^  def setup$/;"	f	class:ActiveSupport
+shipped	app/mailers/order_notifier.rb	/^  def shipped(order)$/;"	f	class:OrderNotifier
+show	app/controllers/carts_controller.rb	/^  def show$/;"	f	class:CartsController
+show	app/controllers/line_items_controller.rb	/^  def show$/;"	f	class:LineItemsController
+show	app/controllers/orders_controller.rb	/^  def show$/;"	f	class:OrdersController
+show	app/controllers/products_controller.rb	/^  def show$/;"	f	class:ProductsController
+show	app/controllers/users_controller.rb	/^  def show$/;"	f	class:UsersController
+test_homepage	test/performance/browsing_test.rb	/^  def test_homepage$/;"	f	class:BrowsingTest
+total_price	app/models/cart.rb	/^  def total_price$/;"	f	class:Cart
+total_price	app/models/line_item.rb	/^  def total_price$/;"	f	class:LineItem
+up	db/migrate/20130411041720_combine_items_in_cart.rb	/^  def up$/;"	f	class:CombineItemsInCart
+update	app/controllers/carts_controller.rb	/^  def update$/;"	f	class:CartsController
+update	app/controllers/line_items_controller.rb	/^  def update$/;"	f	class:LineItemsController
+update	app/controllers/orders_controller.rb	/^  def update$/;"	f	class:OrdersController
+update	app/controllers/products_controller.rb	/^  def update$/;"	f	class:ProductsController
+update	app/controllers/users_controller.rb	/^  def update$/;"	f	class:UsersController
+who_bought	app/controllers/products_controller.rb	/^  def who_bought$/;"	f	class:ProductsController

@@ -1,0 +1,50 @@
+ja:
+  thanks:       "# 注文ありがとうございます"
+  empty:        "カートは空です"
+  
+  layouts:
+   application:
+    title:      "Pragmatic Bookshelf"
+    home:       "ホーム"
+    questions:  "よくある質問"
+    news:       "ニュース"
+    contact:    "お問い合わせ"
+    order:      "注文"
+    products:   "商品"
+    users:      "ユーザ"
+    logout:     "ログアウト"    
+
+  store:
+   index:
+    title_html: "Progmaticカタログ"
+    add_html:   "カートに入れる"
+
+  carts:
+   cart:
+    title:      "カート"
+    empty:      "カートを空にする"
+    checkout:   "チェックアウト"
+    total:      "合計"
+    confirm:    "本当によいですか？"
+
+  number:
+   currency:
+    format:
+     unit:      "円"
+     precision:  0
+     separator:  "."
+     delimiter:  ","
+     format:     "%n%u"
+    
+  orders:
+   new:
+    legend:      "お客様の情報を入力してください"
+   form:
+    name:       "名前"
+    address:    "住所"
+    email:      "E-mail"
+    pay_type:   "支払い方法"
+    pay_prompt_html:     "お支払い方法を選択してください"
+    submit:              "注文する"
+
+    
