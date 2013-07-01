@@ -6,8 +6,7 @@ set :deploy_to, "/var/rails/railsdemo"
 set :user, "rails"
 set :use_sudo, false
 
-set :local_repository, "git@demo.k2-works.net:railsdemo.git"
-set :repository, "/var/git/railsdemo.git"
+set :repository, "git@github.com:k2works/railsdemo.git"
 set :branch, "master"
 set :scm, :git
 set :deploy_via, :remote_cache
